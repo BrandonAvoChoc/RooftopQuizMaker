@@ -7,11 +7,14 @@
     <title>iSpring Quiz Maker</title>
     <meta name="description" content="iSpring Quiz Maker Container">
     <meta name="author" content="Brandon Rudi Bezuidenhout">
+    <script src="container.js"></script>
+    <script src="https://kit.fontawesome.com/a0d7570aa8.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <div class="container">
-        <iframe class="responsive-iframe" src="iframeOriginal/index.html"></iframe>
+        <i id="icon-close" class="fas fa-times close-icon" onclick="myFunction()" style="position: relative; font-size: 70px; margin-left: 24px; top: 17px"></i>
+        <iframe id="quizIframe" class="responsive-iframe" src="iframeOriginal/index.html"></iframe>
     </div>
 </body>
 </html>

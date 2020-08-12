@@ -150,3 +150,7 @@ body {
 .mini .visualizer .multiple_response .item.selected .icon_area svg rect.check_bg {
     fill: #356241 !important;
 }
+
+.mini .quiz_bottom_panel > div button {
+    background: #356241 !important;
+}

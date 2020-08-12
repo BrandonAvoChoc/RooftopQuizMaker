@@ -48,6 +48,6 @@ body {
     .responsive-iframe {
         width: 98vw !important;
         height: 98vh !important;
-        margin-top: 0px;
+        margin-top: -70px;
     }
 }
