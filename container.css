@@ -37,6 +37,12 @@ body {
     border:none;
 }
 
+.button {
+    width: 50%;
+    height: 100px;
+    font-size: 60px;
+}
+
 @media screen and (max-width: 998px) {
     .container {
         width: 100vw !important;

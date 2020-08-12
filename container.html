@@ -11,8 +11,9 @@
     <script src="https://kit.fontawesome.com/a0d7570aa8.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
+<body onload="determineScreensize()">
         <i id="icon-close" class="fas fa-times close-icon" onclick="myFunction()" style="position: relative; font-size: 70px; margin-left: 24px; top: 17px"></i>
+        <button id="button-show" class="button" onclick="showPageQuiz()">Show Quiz</button>
     <div class="container">
         <iframe id="quizIframe" class="responsive-iframe" src="iframeOriginal/index.html"></iframe>
     </div>
