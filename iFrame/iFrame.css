@@ -83,3 +83,70 @@ body {
     background: rgba(53, 98, 65, 0.4) !important;
 }
 
+.submit {
+    background: #356241 !important;
+}
+
+.next .mobile {
+    background: #356241 !important;
+}
+
+.popup_layer .quiz_message_box .buttons_panel > div button {
+    background: #356241 !important;
+}
+
+.mini .questions_list.component_base .questions_list_content .item.selected {
+    background: rgba(53, 98, 65, 0.4) !important;
+}
+
+.mini .questions_list.component_base .questions_list_content .item.selected {
+    background: rgba(53, 98, 65, 0.4) !important;
+}
+
+.message {
+    width: 100% !important;
+}
+
+.mini .visualizer .multiple_choice .item.selected {
+    box-shadow: 0 0 0 2px #356241 !important;
+}
+
+.mini .visualizer .multiple_choice .item.selected .icon_area .radio_icon .outline_border {
+    background: #356241 !important;
+}
+
+.mini .visualizer .multiple_choice .item.selected .icon_area .radio_icon .inline_border {
+    background: #356241 !important;
+}
+
+.mini .quiz_bottom_panel > div button.start {
+    background: #356241 !important;
+}
+
+.popup_layer .answers_popup .component_container.items .item.selected {
+    background: rgba(53, 98, 65, 0.4) !important;
+}
+
+.popup_layer .answers_popup .component_container.items .item.active {
+    background: rgba(53, 98, 65, 0.4) !important;
+}
+
+.mct-placeholder:focus {
+    box-shadow: 0 0 0 2px #356241 !important;
+}
+
+.cancel {
+    color: #356241 !important;
+}
+
+.mini .visualizer .multiple_response .item.selected {
+    box-shadow: 0 0 0 2px #356241 !important;
+}
+
+.mini .visualizer .multiple_response .item.active {
+    box-shadow: 0 0 0 2px #356241 !important;
+}
+
+.mini .visualizer .multiple_response .item.selected .icon_area svg rect.check_bg {
+    fill: #356241 !important;
+}
