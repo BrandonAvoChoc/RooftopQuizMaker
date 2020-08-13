@@ -68,7 +68,7 @@ body {
 #button-show {
     visibility: hidden;
     background: url(assets/btn_image.png);
-    margin-left: calc(10% - 35px);
+    margin-left: 15%;
 }
 
 

@@ -9,7 +9,7 @@ function myFunction() {
     }
     var z = document.getElementById("button-show");
     z.style.visibility = "unset";
-    z.style.float = "unset"
+    z.style.float = "left"
 }
 
 function showPageQuiz() {
@@ -28,7 +28,7 @@ function determineScreensize() {
         x.style.visibility = "hidden";
         var z = document.getElementById("button-show");
         z.style.visibility = "unset";
-        z.style.float = "unset";
+        z.style.float = "left";
         var z = document.getElementById("icon-close");
         z.style.visibility = "hidden";
     } else {
