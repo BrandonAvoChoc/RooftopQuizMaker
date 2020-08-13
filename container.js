@@ -9,6 +9,7 @@ function myFunction() {
     }
     var z = document.getElementById("button-show");
     z.style.visibility = "unset";
+    z.style.float = "unset"
 }
 
 function showPageQuiz() {
@@ -18,6 +19,7 @@ function showPageQuiz() {
     y.style.visibility = "unset";
     var z = document.getElementById("button-show");
     z.style.visibility = "hidden";
+    z.style.float = "right";
 }
 
 function determineScreensize() {
@@ -26,11 +28,13 @@ function determineScreensize() {
         x.style.visibility = "hidden";
         var z = document.getElementById("button-show");
         z.style.visibility = "unset";
+        z.style.float = "unset";
         var z = document.getElementById("icon-close");
         z.style.visibility = "hidden";
     } else {
         var z = document.getElementById("button-show");
         z.style.visibility = "hidden";
+        z.style.float = "right";
         var q = document.getElementById("icon-close");
         q.style.visibility = "hidden";
     }

@@ -38,8 +38,8 @@ body {
 }
 
 .button {
-    width: 50%;
-    height: 100px;
+    width: 70%;
+    height: 461px;
     font-size: 60px;
 }
 
@@ -56,7 +56,7 @@ body {
     .responsive-iframe {
         width: 99vw !important;
         height: 99vh !important;
-        margin-top: -70px;
+        margin-top: -462px;
         visibility: hidden;
     }
 }
@@ -67,6 +67,8 @@ body {
 
 #button-show {
     visibility: hidden;
+    background: url(assets/btn_image.png);
+    margin-left: calc(10% - 35px);
 }
 
 
