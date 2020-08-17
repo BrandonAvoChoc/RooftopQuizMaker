@@ -36,7 +36,7 @@ body {
 
 .quiz-slide-visualizer {
     width: 100% !important;
-    height: 100% !important;
+    height: inherit !important;
 }
 
 .slide-layout {
