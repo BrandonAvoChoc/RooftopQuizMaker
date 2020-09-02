@@ -1,6 +1,6 @@
 body {
     /* Location of the image */
-    background-image: url("./assets/bg.png");
+    background-image: url("V3/assets/bg.png");
 
     /* Background image is centered vertically and horizontally at all times */
     background-position: center center;
@@ -71,7 +71,7 @@ body {
 
 #button-show {
     visibility: hidden;
-    background: url(assets/btn_image.png);
+    background: url(V3/assets/btn_image.png);
     margin-left: 15%;
 }
 
