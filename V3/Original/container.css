@@ -32,3 +32,9 @@ body {
     color: white;
     font-size: 20px;
 }
+
+.quiz-landing-page {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+}

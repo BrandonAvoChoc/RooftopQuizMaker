@@ -20,11 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8e9faa26-a1a1-48c1-aca9-0f771034c2d4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/V3/Original/container.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/V3/Original/container.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/V3/assets/bg.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/btn_image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/container.css" beforeDir="false" afterPath="$PROJECT_DIR$/container.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/V3/Original/container.css" beforeDir="false" afterPath="$PROJECT_DIR$/V3/Original/container.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/V3/Original/container.html" beforeDir="false" afterPath="$PROJECT_DIR$/V3/Original/container.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/V3/Original/container.js" beforeDir="false" afterPath="$PROJECT_DIR$/V3/Original/container.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/V3/Original/dropdowns.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +42,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/V3/assets" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -51,6 +51,9 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/V3/assets" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/V3" />
     </key>
@@ -80,11 +83,16 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="693" y="1362" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1599032297826">
       <screen x="0" y="1080" width="1920" height="1080" />
     </state>
     <state x="693" y="1362" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.1080.1920.1080/0.0.1920.1080@0.1080.1920.1080" timestamp="1599032297826" />
+    <state x="651" y="1323" width="618" height="580" key="find.popup" timestamp="1599116787419">
+      <screen x="0" y="1080" width="1920" height="1080" />
+    </state>
+    <state x="651" y="1323" width="618" height="580" key="find.popup/0.1080.1920.1080/0.0.1920.1080@0.1080.1920.1080" timestamp="1599116787419" />
   </component>
 </project>
