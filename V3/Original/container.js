@@ -42,3 +42,17 @@ function setLanguage(event) {
     language = event.target.value;
     console.log(event.target.value);
 }
+
+function hideQuiz () {
+    var z = document.getElementById("container");
+    z.style.visibility = "hidden";
+    var y = document.getElementById("quiz-show");
+    y.style.visibility = "unset";
+}
+
+function showQuiz() {
+    var z = document.getElementById("container");
+    z.style.visibility = "unset";
+    var y = document.getElementById("quiz-show");
+    y.style.visibility = "hidden";
+}

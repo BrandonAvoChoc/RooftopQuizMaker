@@ -9,23 +9,29 @@
     <meta name="author" content="Brandon Rudi Bezuidenhout">
     <script src="https://kit.fontawesome.com/a0d7570aa8.js" crossorigin="anonymous"></script>
     <script src="container.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
-    <div class="container">
-        <img class="quiz-landing-page" src="../assets/landing.png">
-        <form onsubmit="submitLanguage(event)">
-            <label for="languages">Choose a car:</label>
-            <select name="cars" id="languages" onchange="setLanguage(event)">
-                <option value="english">English</option>
-                <option value="عربى">عربى</option>
-                <option value="русский">русский</option>
-                <option value="Español">Español</option>
-                <option value="Français">Français</option>
+    <div>
+        <button id="quiz-show" class="button-warning pure-button" onclick="showQuiz()">Show Quiz</button>
+    </div>
+    <div class="container" id="container">
+        <div class="popover">
+            <i class="fas fa-times" onclick="hideQuiz()"></i>
+            <img class="quiz-landing-page" src="../assets/landing.png">
+            <form onsubmit="submitLanguage(event)" class="language-form">
+            <select name="cars" id="languages" class="select-css" onchange="setLanguage(event)">
+                <option class="language-option" value="english">English</option>
+                <option class="language-option" value="عربى">عربى</option>
+                <option class="language-option" value="русский">русский</option>
+                <option class="language-option" value="Español">Español</option>
+                <option class="language-option" value="Français">Français</option>
             </select>
             <br><br>
-            <input type="submit" value="Submit">
+                <button type="submit" value="" class="button-warning pure-button">Start Quiz    ></button>
         </form>
+        </div>
     </div>
 </body>
 </html>
