@@ -13,14 +13,14 @@
 </head>
 
 <body>
-    <div>
-        <button id="quiz-show" class="button-warning pure-button" onclick="showQuiz()">Show Quiz</button>
-    </div>
-    <div class="container" id="container">
-        <div class="popover">
-            <i class="fas fa-times" onclick="hideQuiz()"></i>
-            <img class="quiz-landing-page" src="../assets/landing.png">
-            <form onsubmit="submitLanguage(event)" class="language-form">
+<div>
+    <button id="quiz-show" class="button-warning pure-button" onclick="showQuiz()">Show Quiz</button>
+</div>
+<div class="container" id="container">
+    <div class="popover">
+        <i class="fas fa-times" onclick="hideQuiz()"></i>
+        <img class="quiz-landing-page" src="../assets/landing.png">
+        <form onsubmit="submitLanguage(event)" class="language-form">
             <select name="cars" id="languages" class="select-css" onchange="setLanguage(event)">
                 <option class="language-option" value="english">English</option>
                 <option class="language-option" value="عربى">عربى</option>
@@ -29,9 +29,9 @@
                 <option class="language-option" value="Français">Français</option>
             </select>
             <br><br>
-                <button type="submit" value="" class="button-warning pure-button">Start Quiz    ></button>
+            <button type="submit" value="" class="button-warning pure-button">Start Quiz ></button>
         </form>
-        </div>
     </div>
+</div>
 </body>
 </html>
